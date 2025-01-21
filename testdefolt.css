@@ -8,6 +8,7 @@ div#app {
     padding-top: unset;
 	padding-bottom: unset;
 }
+/* основа */
 main.py-4 {
 	padding-top: 0!important;
 	padding-bottom: 0!important;
@@ -25,6 +26,7 @@ div.crumbs {
 .left-menu-text {
 	padding-left: 5px;
 }
+/* панель подарков */
 .left-menu__gift{
 	width: 25%;
 	padding: 3px;
@@ -387,6 +389,7 @@ textarea {
 		width: 100%
 	}
 }
+/* цитирование */
 .quotation {
 	border-left: 3px solid #6666ff;
 	padding-left: 5px;
@@ -533,9 +536,9 @@ h2 {
 .user-profile__anketa-row :last-child {
     width: 62%;
 }
-/*
-	картинки фулскрин
-*/
+
+/* картинки фуллскрин */
+
 .imagefsme:not(.user *):not(.blog *) {
 	cursor: zoom-in;
 	padding: 5px;
@@ -802,10 +805,7 @@ div.post-text > p {
 	padding-left: 3px;
 }
 
-/*
-	blog audio player
-		vvvvvv
-*/
+/* плеер в дневе*/
 #beon-fnplayer {
 			height: 16px;
 			width: 98%;
