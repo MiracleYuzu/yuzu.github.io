@@ -3,6 +3,7 @@
 
 div#app {
 	padding: 0.3%;
+	background-color: black;
 }
 .navbar-brand {
     padding-top: unset;
