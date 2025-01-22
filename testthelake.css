@@ -69,7 +69,7 @@ body {
     margin: 0px 32% !important;
 }
 /*___________ */
-/* мобильное меню */
+/* вниз */
 a.my-menu.for-mobile.d-none.d-md-inline, a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none {
     background: url(https://i1.beon.fun/89/16/1689/4/1196004/fffff.png) no-repeat center / contain;
     position: fixed;
@@ -80,6 +80,8 @@ a.my-menu.for-mobile.d-none.d-md-inline, a.my-menu.for-mobile.mobile-scroll-down
     width: 30px;
     height: 30px;
 }
+/*___________ */
+/*вверх */
 [style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"] {
     background: url(https://i1.beon.fun/89/16/1689/4/1196004/fffff.png) no-repeat center / contain;
     font-size: 0px;
@@ -90,6 +92,8 @@ a.my-menu.for-mobile.d-none.d-md-inline, a.my-menu.for-mobile.mobile-scroll-down
     right: 20px;
     top: 35px;
 }
+/*___________ */
+/*наведение мышкой на вверх-вниз */
 [style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"]:hover,a.my-menu.for-mobile.d-none.d-md-inline:hover, a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none:hover, .menu__btn:hover {
     transition: all 0.4s;
     filter: drop-shadow(1px 0 1px #00ffef) drop-shadow(0 1px 1px #00ffef) drop-shadow(-1px 0 1px #00f9e9) drop-shadow(0 -1px 1px #00ffef) drop-shadow(0 0 5px #fff) brightness(1.1);
@@ -340,12 +344,14 @@ div#beon-fnplayer {
     background: linear-gradient(93deg, #4c4f5f, #89020e);
 }
 /*___________ */
+/* загрузка чего-либо окошко */
 .modal-footer {
     border-top: 1px dashed;
 }
 .modal-header {
     border-bottom: 1px dashed;
 }
+/*___________ */
 /* основной блок ввода в форме */
 textarea {
     background: #0b4e7090;
