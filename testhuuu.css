@@ -7,7 +7,7 @@ url('//source.cappuccicons.com/cappuccicons.ttf') format('truetype'), url('//sou
 url('//source.cappuccicons.com/cappuccicons.svg#cappuccicons') format('svg');font-weight:normal;font-style:normal;font-display:block;}
  
 
-/* DELETE */
+/* DELETE значочки-иконки*/
 
 [action="/search"], [class="blog__last-comments"], [class="blog__read-me"], .tag:before, [class="flag"], .avatar-select-list::-webkit-scrollbar, div.left-menu::-webkit-scrollbar, .left-menu-text [src="/i/user.png"], [class="blog__gifts"], .left-menu-text [src="/i/offline.png"], .left-menu-text [src="/i/online.png"], [href="//beon.fun/friends"], [href="//beon.fun/p/discussions/unread"], [src="/i/blog.png"],  [class="blog__last-comments"], [src="/i/flags/ru.gif"], [class="blog__iread"], .left-menu-text [src="//beon.fun/i/design-off.png"],  [class="left-menu__friends left-menu__friends_offline"], [src="//beon.fun/i/offline.png"], [src="//beon.fun/i/online.png"], .user:before, [src="/i/user.png"], [class="post-content blog_total_counter"],  [src="//beon.fun/i/tag.png"], .dropbtn, .blog:before, [src="/i/community.png"], .info_text .comment-row [class="post-avatar"]   {
 display: none !important;
@@ -39,7 +39,7 @@ content: url(https://i.ibb.co/xgv8Hb3/2.png);
     font-size: 13px;
     text-transform: lowercase;
 }
-
+/* в шапке кружочки возле ссылок */
 ul ul {
     list-style-type: disclosure-closed;
     font-size: 9px;
@@ -55,7 +55,7 @@ input, select, .btn-outline-primary, .textareabg input[type="submit"], .textarea
     cursor: pointer;
     transition: 0.4s;
 }
-
+/* шапка верх меню */
 nav.navbar a {
     color: #851515 !important;
 }
@@ -77,17 +77,17 @@ nav.navbar {
     height: 150px;
     box-shadow: inset 0 0 86px #0000005c !important;
 }
-
+/* блок над записями */
 .post-content.blog_total_counter {
     background: url(https://i.imgur.com/HuD8P33.gif) no-repeat center, #000;
     background-size: cover;
 }
-
+/* отступы левого меню */
 div.left-menu {
     padding: 10px;
     border: none;
 }
-
+* заголовок-страницы */
 div.crumbs {
     margin-left: auto;
     margin-right: auto;
@@ -97,7 +97,7 @@ div.crumbs {
     border: 1px dashed double none #430000;
     width: 92%;
 }
-
+/* левое меню */
 div.left-menu {
     margin-right: 5px;
     margin-bottom: auto;
@@ -109,7 +109,7 @@ div.left-menu {
     border: 0px solid #1e1e1e;
     margin-bottom: 25px;
 }
-
+/* блок записи + левое меню */
 main.py-4 {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
@@ -129,7 +129,7 @@ a, div, span[data-target="#deleteconfirmmodal"] {
     transition: .3s;
 }
 
-/*3*/
+/*формы*/
 
 .textareabg {
    position: relative;
@@ -141,7 +141,7 @@ a, div, span[data-target="#deleteconfirmmodal"] {
     border: 1px solid #430000;
     margin: 10px 10px 70px;
 }
-
+/*записи*/
 .post-content {
     position: relative;
 }
@@ -151,6 +151,7 @@ a, div, span[data-target="#deleteconfirmmodal"] {
     border: 1px solid #430000;
     margin: 10px 10px 70px!important;
 }
+/* коммы */
 .comment-content {
     background: linear-gradient(331deg, #120202, #3d313130);
     padding: 20px;
@@ -160,7 +161,7 @@ a, div, span[data-target="#deleteconfirmmodal"] {
  .post-content, .comment-content, .textareabg {
     min-height: auto;
 }
-
+/* блок над записями */
 .post-content.blog_total_counter {
 height: 330px;
 display: block;
@@ -171,7 +172,7 @@ font-size:0;
 .post-content.blog_total_counter h2 {
 font-size:0;
 }
-
+/* заголовки постов */
 .post-title {
     font-family: 'STIX Two Text', serif;
     display: block;
@@ -189,7 +190,7 @@ font-size:0;
     letter-spacing: 1px;
     padding: 10px;
 }
-
+/*основа*/
 body {
     margin: 0;
     font-family: Nunito, sans-serif;
@@ -204,27 +205,27 @@ body.bodybg {
     background-image: url(//beon.fun/blogs/80/10/1080/design/pagebg.png?1736968942); repeat fixed;
     background-size: auto;
 }
-
+/*левое меню*/
 div.left-menu {
     background: url() left no-repeat;
     background-size: auto;
     border: 0px solid #80b4e6;
     background-color: #000000;
 }
-
+/*меню пользователя*/
 #usermenu {
     background-color: #0a0a0a99;
 }
-
+/*дата*/
 .datebg {
     color: #710d0d;
     background-image: url(//beon.fun/blogs/80/10/1080/design/datebg.png?1736968942);
 }
-
+/*курсор*/
 {
     cursor: url(https://i1.beon.fun/3/43/4303/71/269571/image.png), auto;
 }
-
+/* кнопка разворота фулл авок*/
 .avatars-fullscreen-link-wrapper {
     position: absolute;
     bottom: 0;
@@ -232,7 +233,7 @@ div.left-menu {
     text-align: center;
     background: #0a0000;
 }
-
+/* подпись под авой */
 .sign {
     font-size: 9px;
     color: black;
@@ -270,12 +271,13 @@ div.left-menu {
     justify-content: center;
 }
 
-
+/*время записей-коммов*/
 .post-title-date {
     font-size: 0.7rem;
     color: #8d5f5f;
     /* padding-left: 1rem; */
 }
+/*авы в записях-коммах*/
 .post-avatar {
     position: relative;
     border: 0px solid #423e34;
@@ -287,6 +289,7 @@ div.left-menu {
     border: 0px solid #aeae9f85;
     border-radius: 5px;
 }
+/*выбор ав*/
 .avatar-select-label-selected {
     padding: 8px;
     transition: 0.3s;
@@ -305,11 +308,11 @@ div.left-menu {
     object-position: top;
     transition: 1s;
 }
-
+/* заголовки */
 .post-title, h1, .comment-content .post-title-date, h3.left-menu-text{
     font-family: 'STIX Two Text', serif;
 }
-
+/*блок левого меню*/
 .blog__about:before {
     content: 'pred';
     font-size: 0;
@@ -328,21 +331,21 @@ div.left-menu {
     background-blend-mode: overlay;
     background-color: #28282821;
 }
-
+/*блок записей*/
 .content {
     border-radius: unset;
     width: 1070px;
     border: 0px solid #aeae9f85;
     margin-left: 50px;
 }
-
+/* левое меню */
 div.left-menu {
     margin-right: 5px;
     margin-bottom: auto;
     padding: 0;
     border: 0px solid #aaa;
 }
-
+/* текст во всех блоках ручной */
 a, div, span[data-target="#deleteconfirmmodal"]  {
     text-decoration: unset!important;
    color: #b13e3e;
@@ -355,7 +358,7 @@ a:hover, span[data-target="#deleteconfirmmodal"]:hover {
     transition: .3s;
 }
 
-
+/*окошко загрузок*/
 .modal-body {
     color: #b13e3e;
     position: relative;
@@ -383,7 +386,7 @@ a:hover, span[data-target="#deleteconfirmmodal"]:hover {
     margin-bottom: 2rem !important;
 }
 
-/*Ð¼ÐµÐ´Ð¸Ð°*/
+/*медиа*/
 @media (max-width: 1280px) { 
 
 nav.navbar {
