@@ -12,12 +12,111 @@ url('//source.cappuccicons.com/cappuccicons.svg#cappuccicons') format('svg');fon
 [action="/search"], [class="blog__last-comments"], [class="blog__read-me"], .tag:before, [class="flag"], .avatar-select-list::-webkit-scrollbar, div.left-menu::-webkit-scrollbar, .left-menu-text [src="/i/user.png"], [class="blog__gifts"], .left-menu-text [src="/i/offline.png"], .left-menu-text [src="/i/online.png"], [href="//beon.fun/friends"], [href="//beon.fun/p/discussions/unread"], [src="/i/blog.png"],  [class="blog__last-comments"], [src="/i/flags/ru.gif"], [class="blog__iread"], .left-menu-text [src="//beon.fun/i/design-off.png"],  [class="left-menu__friends left-menu__friends_offline"], [src="//beon.fun/i/offline.png"], [src="//beon.fun/i/online.png"], .user:before, [src="/i/user.png"], [class="post-content blog_total_counter"],  [src="//beon.fun/i/tag.png"], .dropbtn, .blog:before, [src="/i/community.png"], .info_text .comment-row [class="post-avatar"]   {
 display: none !important;
 }
+/* шапка верх меню */
+nav.navbar a {
+    color: #851515 !important;
+}
+nav.navbar {
+    border-radius: unset;
+    top: 2px;
+    z-index: 3;
+    padding: 0px;
+    margin-bottom: 40px !important;
+    margin-top: 40px !important;
+    width: 1385px;
+    padding: 20px;
+    background: url(https://i.ibb.co/kJKJn78/black-paper1.png);
+    background-color: #00000087;
+    border: 1px solid #430000;
+    right: 0px;
+    left: 0px;
+    height: 150px;
+    box-shadow: inset 0 0 86px #0000005c !important;
+}
+/* в шапке кружочки возле ссылок */
+ul ul {
+    list-style-type: disclosure-closed;
+    font-size: 9px;
+    color: #ff0000e6;
+}
+/* заголовок-страницы */
+div.crumbs {
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: url(https://beon.fun/blogs/80/10/1080/design/lmenuhbg.png?1737110961);
+    border: 1px dashed double none #430000;
+    width: 92%;
+}
+/* блок над записями */
+.post-content.blog_total_counter {
+    background: url(https://i.imgur.com/HuD8P33.gif) no-repeat center, #000;
+    background-size: cover;
+}
+/* блок над записями */
+.post-content.blog_total_counter {
+height: 330px;
+display: block;
+ background: url(https://i.ibb.co/h7HSVRN/21.gif) no-repeat center, #000;
+    background-size: cover;
+font-size:0;
+}
+.post-content.blog_total_counter h2 {
+font-size:0;
+}
+/*основа*/
+body {
+    margin: 0;
+    font-family: Nunito, sans-serif;
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #212529;
+    text-align: left;
+}
 
+body.bodybg {
+    background-image: url(//beon.fun/blogs/80/10/1080/design/pagebg.png?1736968942); repeat fixed;
+    background-size: auto;
+}
+/* блок записи + левое меню */
+main.py-4 {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    padding-left: 40px;
+    margin: auto;
+    background: url(https://i.ibb.co/jbC5Sdm/3.png) repeat fixed;
+    border: 1px solid #430000;
+}
+
+.py-4 {
+    width: 92%;
+}
+/*блок левого меню*/
+.blog__about:before {
+    content: 'pred';
+    font-size: 0;
+    display: block;
+    height: 166px;
+    margin-bottom: 1rem !important;
+    margin-top: 1rem !important;
+}
+
+.blog__about:before {
+    background: url(https://i.ibb.co/CVY4d5F/2.gif)0  no-repeat;
+    filter: grayscale(0.5);
+    border-bottom: 0px solid #aeae9f85;
+    border-top: 0px solid #aeae9f85;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: #28282821;
+}
+/* замена фото в профиле */
 .text-center img {
         border: 0px solid #aeae9f85;
 }
-
-.text-center img /*Ð·Ð°Ð¼ÐµÐ½Ð° Ð³Ð»Ð°Ð²Ð½Ð¾Ð¹ Ð°Ð²Ð°Ñ‚Ð°Ñ€ÐºÐ¸*/ {
+.text-center img  {
 content: url(https://i.ibb.co/xgv8Hb3/2.png);
 }
 
@@ -39,64 +138,13 @@ content: url(https://i.ibb.co/xgv8Hb3/2.png);
     font-size: 13px;
     text-transform: lowercase;
 }
-/* в шапке кружочки возле ссылок */
-ul ul {
-    list-style-type: disclosure-closed;
-    font-size: 9px;
-    color: #ff0000e6;
-}
 
-input, select, .btn-outline-primary, .textareabg input[type="submit"], .textareabg input[type="button"], .left-menu-text input[type="submit"], button.btn.btn-secondary, button.btn.btn-primary {
-    background: #430101;
-    border: 1px solid #1a1a1a;
-    border-radius: 3px;
-   color: #de9595;
-    font-size: 12px;
-    cursor: pointer;
-    transition: 0.4s;
-}
-/* шапка верх меню */
-nav.navbar a {
-    color: #851515 !important;
-}
-
-nav.navbar {
-    border-radius: unset;
-    top: 2px;
-    z-index: 3;
-    padding: 0px;
-    margin-bottom: 40px !important;
-    margin-top: 40px !important;
-    width: 1385px;
-    padding: 20px;
-    background: url(https://i.ibb.co/kJKJn78/black-paper1.png);
-    background-color: #00000087;
-    border: 1px solid #430000;
-    right: 0px;
-    left: 0px;
-    height: 150px;
-    box-shadow: inset 0 0 86px #0000005c !important;
-}
-/* блок над записями */
-.post-content.blog_total_counter {
-    background: url(https://i.imgur.com/HuD8P33.gif) no-repeat center, #000;
-    background-size: cover;
-}
 /* отступы левого меню */
 div.left-menu {
     padding: 10px;
     border: none;
 }
-* заголовок-страницы */
-div.crumbs {
-    margin-left: auto;
-    margin-right: auto;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    background: url(https://beon.fun/blogs/80/10/1080/design/lmenuhbg.png?1737110961);
-    border: 1px dashed double none #430000;
-    width: 92%;
-}
+
 /* левое меню */
 div.left-menu {
     margin-right: 5px;
@@ -109,37 +157,58 @@ div.left-menu {
     border: 0px solid #1e1e1e;
     margin-bottom: 25px;
 }
-/* блок записи + левое меню */
-main.py-4 {
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-    padding-left: 40px;
-    margin: auto;
-    background: url(https://i.ibb.co/jbC5Sdm/3.png) repeat fixed;
-    border: 1px solid #430000;
+/*левое меню*/
+div.left-menu {
+    background: url() left no-repeat;
+    background-size: auto;
+    border: 0px solid #80b4e6;
+    background-color: #000000;
 }
-
-.py-4 {
-    width: 92%;
+      /* левое меню */
+div.left-menu {
+    margin-right: 5px;
+    margin-bottom: auto;
+    padding: 0;
+    border: 0px solid #aaa;
 }
-
-a, div, span[data-target="#deleteconfirmmodal"] {
-    text-decoration: unset !important;
-    color: #b13e3e;
-    transition: .3s;
+      /*время записей-коммов*/
+.post-title-date {
+    font-size: 0.7rem;
+    color: #8d5f5f;
+    /* padding-left: 1rem; */
+      /*дата*/
+.datebg {
+    color: #710d0d;
+    background-image: url(//beon.fun/blogs/80/10/1080/design/datebg.png?1736968942);
 }
-
-/*формы*/
-
-.textareabg {
-   position: relative;
+/* заголовки */
+.post-title, h1, .comment-content .post-title-date, h3.left-menu-text{
+    font-family: 'STIX Two Text', serif;
 }
-
-.textareabg {
-    background: linear-gradient(331deg, #120202, #3d313130);
-    padding: 20px;
-    border: 1px solid #430000;
-    margin: 10px 10px 70px;
+ /* заголовки постов */
+.post-title {
+    font-family: 'STIX Two Text', serif;
+    display: block;
+    margin-top: 15px;
+    font-size: 28px;
+    margin-bottom: 20px;
+    margin-left: -24px;
+    margin-right: -19px;
+    background: linear-gradient(45deg, #120202, #00000030);
+    text-transform: uppercase;
+    border-bottom: 2px solid #430000;
+    border-top: 1px solid #430000;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 10px;
+}
+/*блок записей*/
+.content {
+    border-radius: unset;
+    width: 1070px;
+    border: 0px solid #aeae9f85;
+    margin-left: 50px;
 }
 /*записи*/
 .post-content {
@@ -161,66 +230,39 @@ a, div, span[data-target="#deleteconfirmmodal"] {
  .post-content, .comment-content, .textareabg {
     min-height: auto;
 }
-/* блок над записями */
-.post-content.blog_total_counter {
-height: 330px;
-display: block;
- background: url(https://i.ibb.co/h7HSVRN/21.gif) no-repeat center, #000;
-    background-size: cover;
-font-size:0;
-}
-.post-content.blog_total_counter h2 {
-font-size:0;
-}
-/* заголовки постов */
-.post-title {
-    font-family: 'STIX Two Text', serif;
-    display: block;
-    margin-top: 15px;
-    font-size: 28px;
-    margin-bottom: 20px;
-    margin-left: -24px;
-    margin-right: -19px;
-    background: linear-gradient(45deg, #120202, #00000030);
-    text-transform: uppercase;
-    border-bottom: 2px solid #430000;
-    border-top: 1px solid #430000;
-    text-align: center;
-    font-weight: bold;
-    letter-spacing: 1px;
-    padding: 10px;
-}
-/*основа*/
-body {
-    margin: 0;
-    font-family: Nunito, sans-serif;
-    font-size: .9rem;
-    font-weight: 400;
-    line-height: 1.6;
-    color: #212529;
-    text-align: left;
+/*формы*/
+
+.textareabg {
+   position: relative;
 }
 
-body.bodybg {
-    background-image: url(//beon.fun/blogs/80/10/1080/design/pagebg.png?1736968942); repeat fixed;
-    background-size: auto;
+.textareabg {
+    background: linear-gradient(331deg, #120202, #3d313130);
+    padding: 20px;
+    border: 1px solid #430000;
+    margin: 10px 10px 70px;
 }
-/*левое меню*/
-div.left-menu {
-    background: url() left no-repeat;
-    background-size: auto;
-    border: 0px solid #80b4e6;
-    background-color: #000000;
+input, select, .btn-outline-primary, .textareabg input[type="submit"], .textareabg input[type="button"], .left-menu-text input[type="submit"], button.btn.btn-secondary, button.btn.btn-primary {
+    background: #430101;
+    border: 1px solid #1a1a1a;
+    border-radius: 3px;
+   color: #de9595;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.4s;
 }
+
+a, div, span[data-target="#deleteconfirmmodal"] {
+    text-decoration: unset !important;
+    color: #b13e3e;
+    transition: .3s;
+}
+
 /*меню пользователя*/
 #usermenu {
     background-color: #0a0a0a99;
 }
-/*дата*/
-.datebg {
-    color: #710d0d;
-    background-image: url(//beon.fun/blogs/80/10/1080/design/datebg.png?1736968942);
-}
+
 /*курсор*/
 {
     cursor: url(https://i1.beon.fun/3/43/4303/71/269571/image.png), auto;
@@ -271,11 +313,7 @@ div.left-menu {
     justify-content: center;
 }
 
-/*время записей-коммов*/
-.post-title-date {
-    font-size: 0.7rem;
-    color: #8d5f5f;
-    /* padding-left: 1rem; */
+
 }
 /*авы в записях-коммах*/
 .post-avatar {
@@ -308,43 +346,7 @@ div.left-menu {
     object-position: top;
     transition: 1s;
 }
-/* заголовки */
-.post-title, h1, .comment-content .post-title-date, h3.left-menu-text{
-    font-family: 'STIX Two Text', serif;
-}
-/*блок левого меню*/
-.blog__about:before {
-    content: 'pred';
-    font-size: 0;
-    display: block;
-    height: 166px;
-    margin-bottom: 1rem !important;
-    margin-top: 1rem !important;
-}
 
-.blog__about:before {
-    background: url(https://i.ibb.co/CVY4d5F/2.gif)0  no-repeat;
-    filter: grayscale(0.5);
-    border-bottom: 0px solid #aeae9f85;
-    border-top: 0px solid #aeae9f85;
-    background-size: cover;
-    background-blend-mode: overlay;
-    background-color: #28282821;
-}
-/*блок записей*/
-.content {
-    border-radius: unset;
-    width: 1070px;
-    border: 0px solid #aeae9f85;
-    margin-left: 50px;
-}
-/* левое меню */
-div.left-menu {
-    margin-right: 5px;
-    margin-bottom: auto;
-    padding: 0;
-    border: 0px solid #aaa;
-}
 /* текст во всех блоках ручной */
 a, div, span[data-target="#deleteconfirmmodal"]  {
     text-decoration: unset!important;
