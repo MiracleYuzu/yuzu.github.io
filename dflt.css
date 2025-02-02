@@ -68,6 +68,19 @@ font-size:0;
 	border: solid 2px;
 	margin: 5px;
 	}
+.blog__about:before {
+    content: '';
+    display: block;
+    height: 100px;
+    background-color: #78647ed4;
+    background-size: cover;
+margin-bottom: 5px;
+border-top: 3px solid;
+border-bottom: 3px solid;
+} 
+ .blog__about h3.left-menu-text {
+    display: none;
+}
 div.left-menu {
 	width: 25%;
 	padding: 5px;
@@ -81,6 +94,7 @@ h3.left-menu-text {
 		background-color: #8c798b !important;
 	text-align: center;
 	}
+
 .left-menu-text input[type="text"] {
 	width: 170px;
 	margin-bottom: 5px;
