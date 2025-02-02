@@ -23,7 +23,7 @@ main.py-4 {
 nav.navbar {
 	max-width: 1100px;
 	background-color: #786969;
-					color: #000000 !important;
+	color: #000000 !important;
 			border: solid 2px;
 	}
 
@@ -41,10 +41,16 @@ nav.navbar {
 
 		border: solid 2px;
 	}
+	.datebg {
+	background-color:#786969;
+			border: solid 2px;
+	text-align: center;
+	}
 
 .post-content {
 		background-color: #786969;
 	border: solid 2px;
+	margin: 5px;
 	
     
 	
@@ -52,6 +58,7 @@ nav.navbar {
 .comment-content {
 	background-color: #786969;
 	border: solid 2px;
+	margin: 5px;
 	
 	}
 div.left-menu {
@@ -67,16 +74,101 @@ div.left-menu {
 h3.left-menu-text {
 		background-color: black !important;
 	
-		
+	
 	}
+.left-menu-text input[type="text"] {
+	width: 170px;
+	margin-bottom: 5px;
+}
 .textareabg {
 	background-color: #786969;
 	border: solid 2px;
-	margin: 10px;
+	margin: 5px;
 	
 		}
-.datebg {
-	background-color:#786969;
-			border: solid 2px;
-	text-align: center;
-	}
+textarea {
+	background-color: #c7a7c6;
+	border: solid 2px;
+	margin: 5px;
+}
+  .avatar-select-list {
+	  background-color: #625267;
+  }
+.avatar-select-label {
+opacity: 0.5;
+margin:2px;
+width: 100px;
+border: 3px solid #ffc2f5;
+ transition: 0.2s;
+}
+
+.avatar-select-label-selected {
+opacity: 1;
+border: 3px solid #f16ce8;
+ box-shadow: 0px 0px 3px 0px #c3a9a987;
+ transition: 0.2s;
+}
+
+.container-fluid.mt-5 {
+    margin-top: 5px !important;
+	
+}
+.textareabg input[type="text"] {
+	width: 200px;
+	position: relative;
+	bottom: 18px;
+}
+.textareabg select {
+	width: 200px;
+}
+.textareabg input[type="submit"] {
+	margin: 5px;
+	margin-top: 0px !important;
+}
+
+ select,
+input ,
+.textareabg input[type="submit"],
+.left-menu-text input[type="text"],
+.left-menu-text input[type="submit"], 
+button.btn.btn-secondary, 
+button.btn.btn-primary {
+   background: #f7b4f4b5;
+   border: 4px double #000000;
+   color: #000000;
+   font-size: 12px;
+   text-transform: uppercase;
+   transition: 0.4s;
+	
+}
+
+ select:hover,
+input:hover,
+.textareabg input[type="submit"]:hover,
+.left-menu-text input[type="text"]:hover,
+.left-menu-text input[type="submit"]:hover, 
+button.btn.btn-secondary:hover, 
+button.btn.btn-primary:hover {
+    background: #9f73a4;
+    border: 4px double #000000;
+    box-shadow: 0px 0px 2px 0px #45090947;
+    color: #000000;
+    transition: 0.4s;
+}
+::-webkit-scrollbar {
+    width: 10px;
+	border: solid 1px;
+	border-color: #ae68c0;
+	background-color: #bdb8be;
+}
+
+::-webkit-scrollbar-thumb {
+    border-left: 2px solid #41074b;
+    border-right: 2px solid #540562;
+    border-radius: 30px!important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    border-left: 2px solid #401f1f70;
+    border-right: 2px solid #00000070;
+}
