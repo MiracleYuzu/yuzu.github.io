@@ -1,0 +1,81 @@
+
+.bodybg {
+		}
+
+	.py-4 a, .crumbs a{
+		color:  !important;
+	}
+	.py-4 a:hover, .crumbs a:hover {
+		color:  !important;
+	}
+nav.navbar {
+					color: #a9a7a7 !important;
+			border-top-left-radius: 0px;
+			border-top-right-radius: 0px;
+			border-bottom-right-radius: 0px;
+			border-bottom-left-radius: 0px;
+	}
+
+	nav.navbar a {
+		color: #a9a7a7 !important;
+	}
+
+	nav.navbar a:hover {
+		color: #a9a7a7 !important;
+	}
+.crumbs {
+				
+		border-top-left-radius: 0px;
+			border-top-right-radius: 0px;
+			border-bottom-right-radius: 0px;
+			border-bottom-left-radius: 0px;
+	}
+.datebg {
+					border-top-left-radius: 0px;
+			border-top-right-radius: 0px;
+			border-bottom-right-radius: 0px;
+			border-bottom-left-radius: 0px;
+	}
+.post-content {
+		color: ;
+	
+			border-top-left-radius: 0px;
+			border-top-right-radius: 0px;
+			border-bottom-right-radius: 0px;
+			border-bottom-left-radius: 0px;
+	}
+.comment-content {
+		color: ;
+		
+				border-top-width: 0px;
+						border-right-width: 0px;
+						border-bottom-width: 0px;
+						border-left-width: 0px;
+					border-top-left-radius: 0px;
+			border-top-right-radius: 0px;
+			border-bottom-right-radius: 0px;
+			border-bottom-left-radius: 0px;
+	}
+.left-menu > div {
+			color: #a9a7a7;
+		
+				border-top-width: 0px;
+						border-right-width: 0px;
+						border-bottom-width: 0px;
+						border-left-width: 0px;
+					border-top-left-radius: 0px;
+			border-top-right-radius: 0px;
+			border-bottom-right-radius: 0px;
+			border-bottom-left-radius: 0px;
+	}
+.left-menu > div > h3 {
+			
+		border-top-left-radius: 0px;
+			border-top-right-radius: 0px;
+			border-bottom-right-radius: 0px;
+			border-bottom-left-radius: 0px;
+	}
+.textareabg {
+		}
+
+
