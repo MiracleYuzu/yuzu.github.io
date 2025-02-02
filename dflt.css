@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 * {
 	 font-family: "Shantell Sans", serif;
-	color: #421c45 !important;
+	;
 }
 
 .bodybg {
 	background-color: #00000030;
+	color: #421c45;
 		}
 main.py-4 {
 	background-color: #a79797;
@@ -40,13 +41,25 @@ nav.navbar {
 	background-color: #786969;
 			max-width: 1100px;
 	margin: auto;
-
+	color: #421c45;
 		border: solid 2px;
 	}
+.crumbs a {
+		color: #421c45 !important;
+	}
+.pagination a {
+	color: #421c45;
+	border: solid 1px;
+}
+.pagination-goto {
+	color: #421c45;
+}
+
 	.datebg {
 	background-color:#786969;
 			border: solid 2px;
 	text-align: center;
+		color: #421c45;
 	}
 .post-content.blog_total_counter {
 height: 200px;
@@ -58,6 +71,33 @@ font-size:0;
 .post-content.blog_total_counter h2 {
 font-size:0;
 }
+.post-text {
+font-size: 13px; 
+color: #530159; 
+}
+
+.post-text a {
+color: ##650d6c;
+}
+
+.post-opt a,
+.post-opt span {
+color: #421c45;
+font-weight: bold;
+}
+
+a.post-title {
+color: #36074d;
+}
+
+a.user.post-title-user {
+color: #421c45;
+}
+.post-title-date {
+	color: #421c45;
+}
+
+
 .post-content {
 		background-color: #786969;
 	border: solid 2px;
@@ -86,15 +126,18 @@ div.left-menu {
 	padding: 5px;
 	height: 30%;
 	margin: 5px 5px 5px;
-			color: #000000;
+			color: #030303;
 	border: solid 2px;
 	border-color: #000000;
 	}
 h3.left-menu-text {
 		background-color: #8c798b !important;
 	text-align: center;
+	color: #421c45;
 	}
-
+.left-menu a {
+color: #421c45;
+}
 .left-menu-text input[type="text"] {
 	width: 170px;
 	margin-bottom: 5px;
@@ -207,6 +250,10 @@ button.btn.btn-primary:hover {
 	}
 #usermenu {
 	background-color: #7e6d7c;
+
+}
+#usermenu a {
+	color: #421c45;
 }
 [href="#footer"] { 
     background: #b49db1;
