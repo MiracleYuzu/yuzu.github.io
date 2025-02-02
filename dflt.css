@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 * {
 	 font-family: "Shantell Sans", serif;
+	color: #421c45 !important;
 }
+
 .bodybg {
 	background-color: #00000030;
 		}
@@ -15,20 +17,20 @@ main.py-4 {
 	outline: 1px solid;
 }
 	.py-4 a, .crumbs a{
-		color:  black;
+		color:  #421c45;
 	}
 	.py-4 a:hover, .crumbs a:hover {
-		color:  black;
+		color:  #421c45;
 	}
 nav.navbar {
 	max-width: 1100px;
 	background-color: #786969;
-	color: #000000 !important;
+	color: #421c45 !important;
 			border: solid 2px;
 	}
 
 	nav.navbar a {
-		color: #000000 !important;
+		color: #421c45 !important;
 	}
 
 	nav.navbar a:hover {
@@ -46,20 +48,25 @@ nav.navbar {
 			border: solid 2px;
 	text-align: center;
 	}
-
+.post-content.blog_total_counter {
+height: 200px;
+display: block;
+ background: url no-repeat center, #4529299c;
+    background-size: cover;
+font-size:0;
+}
+.post-content.blog_total_counter h2 {
+font-size:0;
+}
 .post-content {
 		background-color: #786969;
 	border: solid 2px;
 	margin: 5px;
-	
-    
-	
 	}
 .comment-content {
 	background-color: #786969;
 	border: solid 2px;
 	margin: 5px;
-	
 	}
 div.left-menu {
 	width: 25%;
@@ -69,12 +76,10 @@ div.left-menu {
 			color: #000000;
 	border: solid 2px;
 	border-color: #000000;
-	
 	}
 h3.left-menu-text {
-		background-color: black !important;
-	
-	
+		background-color: #8c798b !important;
+	text-align: center;
 	}
 .left-menu-text input[type="text"] {
 	width: 170px;
@@ -84,10 +89,9 @@ h3.left-menu-text {
 	background-color: #786969;
 	border: solid 2px;
 	margin: 5px;
-	
 		}
 textarea {
-	background-color: #c7a7c6;
+	background-color: #8d818db5;
 	border: solid 2px;
 	margin: 5px;
 }
@@ -95,16 +99,15 @@ textarea {
 	  background-color: #625267;
   }
 .avatar-select-label {
-opacity: 0.5;
 margin:2px;
 width: 100px;
-border: 3px solid #ffc2f5;
+border: 3px solid #6b5a68;
  transition: 0.2s;
 }
 
 .avatar-select-label-selected {
 opacity: 1;
-border: 3px solid #f16ce8;
+border: 3px solid #370633;
  box-shadow: 0px 0px 3px 0px #c3a9a987;
  transition: 0.2s;
 }
@@ -133,7 +136,7 @@ input ,
 .left-menu-text input[type="submit"], 
 button.btn.btn-secondary, 
 button.btn.btn-primary {
-   background: #f7b4f4b5;
+   background: #baa8c5;
    border: 4px double #000000;
    color: #000000;
    font-size: 12px;
@@ -149,7 +152,7 @@ input:hover,
 .left-menu-text input[type="submit"]:hover, 
 button.btn.btn-secondary:hover, 
 button.btn.btn-primary:hover {
-    background: #9f73a4;
+    background: #d1c4d3;
     border: 4px double #000000;
     box-shadow: 0px 0px 2px 0px #45090947;
     color: #000000;
@@ -158,7 +161,7 @@ button.btn.btn-primary:hover {
 ::-webkit-scrollbar {
     width: 10px;
 	border: solid 1px;
-	border-color: #ae68c0;
+	border-color: #4f0861;
 	background-color: #bdb8be;
 }
 
@@ -172,3 +175,76 @@ button.btn.btn-primary:hover {
     border-left: 2px solid #401f1f70;
     border-right: 2px solid #00000070;
 }
+.avatars-fullscreen-link-wrapper {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: #6c637d;
+	a {
+		color: #825c89;
+	}	
+}
+.modal-content {
+		background-color: #7e6d7c;
+	a {
+	color: #6a3874;
+}
+	}
+#usermenu {
+	background-color: #7e6d7c;
+}
+[href="#footer"] { 
+    background: #b49db1;
+    outline-offset: -6px;
+    outline: 1px solid #49025359;
+    padding: 5px!important;
+    color: #2c0943;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-align: center;
+    position: fixed;
+    bottom: 460px;
+    right: 10px;
+    width: 95px;
+    height: 28px;
+    z-index: 1000;
+    transition: .4s;
+
+}
+[href="#footer"]:hover { 
+    background: #c4a3ce;
+    outline: 1px solid #a88bb8;
+    box-shadow: 0px 0px 8px 2px #735475f2;
+    color: #2c0943;
+    font-size: 13px;
+    transition: 0.4s;
+}
+ 
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"] {
+    background: #b49db1;
+    outline-offset: -6px;
+    outline: 1px solid #49025359;
+    padding: 5px;
+    color: #5a4359;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-align: center;
+    position: fixed;
+    bottom: 500px;
+    right: 10px;
+    width: 95px;
+    height: 28px;
+    z-index: 1000;
+    transition: .4s;
+}
+
+ [onclick="window.scroll({top: 0,behavior: 'smooth'})"]:hover { 
+    background: #c4a3ce;
+    outline: 1px solid #a88bb8;
+    box-shadow: 0px 0px 8px 2px #735475f2;
+    color: #2c0943;
+    font-size: 13px;
+    transition: 0.4s;
+}
+
