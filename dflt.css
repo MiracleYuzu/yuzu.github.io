@@ -443,6 +443,10 @@ color:#8391b3;
 text-shadow: 0 0 3px #728dd1;
 transition: .3s;
 }
+::selection {
+    background: #0b1a34;
+    color: #fff;
+    text-shadow: 1px 0 1px #00ffef, 0 1px 1px #00ffef, -1px 0 1px #00f9e9, 0 -1px 1px #00ffef, 0 0 5px #fff;}
 div#beon-fnplayer { 
     padding: 10px;
     background: linear-gradient(270deg, #d7dbe4 0%, white 25%, #d7dbe4); 
