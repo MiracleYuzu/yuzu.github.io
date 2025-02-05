@@ -5,15 +5,27 @@
 }
 
 .bodybg {
-	background-color: #00000030;
+	width: 100%;
+	height: 5000px;
+	background-image: url(https://i1.beon.fun/45/35/3545/21/1347121/122e6b17b9926aae14391f7bfe482f6c.png), 
+		url(https://i1.beon.fun/45/35/3545/22/1347122/bb51c15370af4ea65a136a66f47b3c4d.png), linear-gradient(to right, #202020,#ececec), linear-gradient(to right, #202020 50%,#ececec 50%);
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+	background-size:21.5%, 21.5%, 20%, auto;
+	background-position: top left, bottom right, center, left;
+	background-attachment: fixed, fixed, fixed, fixed;
+	
 	color: #421c45;
 		}
 main.py-4 {
-	background-color: #a79797;
+	background-color: #868686;
 	max-width: 1100px;
 	padding: auto;
 	margin: auto;
-	border: solid 5px;
+	border: 10px solid transparent; 
+    background: linear-gradient(#868686, #868686) padding-box, 
+     linear-gradient(90deg, #ececec, #202020) border-box; 
+    border-radius: 10px; 
+    padding: 1em; 
 	outline-offset: -5px;
 	outline: 1px solid;
 }
@@ -25,37 +37,47 @@ main.py-4 {
 	}
 nav.navbar {
 	max-width: 1100px;
-	background-color: #786969;
-	color: #421c45 !important;
-			border: solid 2px;
+	background-color: #868686;
+	border: 10px solid transparent; 
+    background: linear-gradient(#868686, #868686) padding-box, 
+     linear-gradient(90deg, #ececec, #202020) border-box; 
+    border-radius: 10px; 
+    padding: 1em; 
+	outline-offset: -5px;
+	outline: 1px solid;
 	}
 
 	nav.navbar a {
-		color: #421c45 !important;
+		color: #202020 !important;
 	}
 
 	nav.navbar a:hover {
-		color: #000000 !important;
+		color: #ececec !important;
 	}
 ul ul {
     list-style-type: square;
+	color: #202020;
 }
 .crumbs {
-	background-color: #786969;
-			max-width: 1100px;
+	max-width: 1100px;
 	margin: auto;
-	color: #421c45;
-		border: solid 2px;
+	border: 10px solid transparent; 
+	background: linear-gradient(#868686, #868686) padding-box, 
+     linear-gradient(90deg, #ececec, #202020) border-box; 
+    border-radius: 10px; 
+    padding: 1em; 
+	outline-offset: -5px;
+	outline: 1px solid;
 	}
 .crumbs a {
-		color: #421c45 !important;
+		color: #202020 !important;
 	}
 .pagination a {
-	color: #421c45;
+	color: #202020;
 	border: solid 1px;
 }
 .pagination-goto {
-	color: #421c45;
+	color: #202020;
 }
 
 	.datebg {
@@ -76,48 +98,44 @@ font-size:0;
 }
 .post-text {
 font-size: 13px; 
-color: #530159; 
+color: #202020; 
 }
 
 .post-text a {
-color: ##650d6c;
+color: ##202020;
 }
 
 .post-opt a,
 .post-opt span {
-color: #421c45;
+color: #202020;
 font-weight: bold;
 }
 .post-title  {
     font-size: 170%;
-    color: #8391b3;
+    color: #202020;
     font-weight: bold;
-    transition: .3s;
 }
 
 .post-title:hover{
-    color: #000;
-margin-left:5px;
-   text-shadow: 0 0 2px #fff;
-   transition: .3s;
+    color: #ececec;
 }
 a.post-title {
-color: #36074d;
+color: #202020;
 }
 
 a.user.post-title-user {
-color: #421c45;
+color: #202020;
 }
 .post-title-date {
-	color: #421c45;
+	color: #202020;
 }
 .post-content i.fas, .comment-box i.fas {
-    color: #610f86;
+    color: #202020;
     font-size: 10px;
 }
 
 .post-content i.fas:hover, .comment-box i.fas:hover {
-    color: #cb41d0!important;
+    color: #ececec!important;
     cursor: pointer;
 }
 .post-content {
@@ -128,7 +146,7 @@ color: #421c45;
 .post-content [href$="/unsubscribe"],
 .post-content [href$="#"]   {
   font-size: 13px;
-color:#8391b3;
+color:#202020;
 }
 
  a.post-subscribe {
