@@ -23,8 +23,8 @@ main.py-4 {
 	padding: auto;
 	margin: auto;
 	border: 10px solid transparent; 
-    background: linear-gradient(#868686, #868686) padding-box, 
-     linear-gradient(90deg, #ececec, #202020) border-box; 
+    background: url(https://i1.beon.fun/45/35/3545/78/1347678/6302768900.png)/*linear-gradient(#868686, #868686)*/ padding-box, 
+   linear-gradient(90deg, #ececec, #202020) border-box; 
     border-radius: 10px; 
     padding: 1em; 
 	outline-offset: -5px;
@@ -40,7 +40,7 @@ nav.navbar {
 	max-width: 1100px;
 	background-color: #868686;
 	border: 10px solid transparent; 
-    background: linear-gradient(#868686, #868686) padding-box, 
+    background: url(https://i1.beon.fun/45/35/3545/78/1347678/6302768900.png) padding-box, 
      linear-gradient(90deg, #ececec, #202020) border-box; 
     border-radius: 10px; 
     padding: 1em; 
@@ -56,14 +56,14 @@ nav.navbar {
 		color: #ececec !important;
 	}
 ul ul {
-    list-style-type: square;
+    list-style-type: ;
 	color: #202020;
 }
 .crumbs {
 	max-width: 1100px;
 	margin: auto;
 	border: 10px solid transparent; 
-	background: linear-gradient(#868686, #868686) padding-box, 
+	background: url(https://i1.beon.fun/45/35/3545/78/1347678/6302768900.png) padding-box, 
      linear-gradient(90deg, #ececec, #202020) border-box; 
     border-radius: 10px; 
     padding: 1em; 
@@ -89,13 +89,22 @@ ul ul {
 			border: solid 2px;
 	text-align: center;
 		color: #202020;
+		margin: 10px 10px 30px !important;
 	}
+.content {
+    width: 80%;
+    padding: 5px;
+	position: relative;
+	left: 5px;
+	top: 5px;
+}
 .post-content.blog_total_counter {
-height: 200px;
+height: 335px;
 display: block;
- background: url no-repeat center, #4529299c;
-    background-size: cover;
+ background:  url(https://i1.beon.fun/45/35/3545/73/1347873/sss.png) center no-repeat;
+background-size: cover;
 font-size:0;
+	margin: 10px 10px 30px !important;
 }
 .post-content.blog_total_counter h2 {
 font-size:0;
@@ -143,9 +152,17 @@ color: #202020;
     cursor: pointer;
 }
 .post-content {
-	background-color: #786969;
-	border: solid 2px;
-	margin: 5px;
+	background: linear-gradient(45deg, #ececec6b,#202020a1);
+	border-image-source: url(https://i1.beon.fun/45/35/3545/29/1347729/19449830-Photoroom.png);
+	padding: 10px;
+	backdrop-filter: blur(3px);
+	border-image-repeat: round;
+    border-image-slice: 70;
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-image-outset: 6px;
+    border-image-width: 40px;
+	margin: 10px 10px 30px !important;
 	}
 .post-content [href$="/unsubscribe"],
 .post-content [href$="#"]   {
@@ -172,16 +189,24 @@ color: #202020;
     margin-bottom: 0;
 }
 .comment-content {
-	background-color: #786969;
-	border: solid 2px;
-	margin: 5px;
+	background: linear-gradient(45deg, #ececec6b,#202020a1);
+	border-image-source: url(https://i1.beon.fun/45/35/3545/29/1347729/19449830-Photoroom.png);
+	padding: 10px;
+	backdrop-filter: blur(3px);
+	border-image-repeat: round;
+    border-image-slice: 70;
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-image-outset: 6px;
+    border-image-width: 40px;
+	margin: 10px 10px 30px !important;
 	}
 
 .blog__about:before {
     content: '';
     display: block;
     height: 100px;
-    background-color: #78647ed4;
+    background: ;
     background-size: cover;
 margin-bottom: 5px;
 border-top: 3px solid;
@@ -192,12 +217,10 @@ border-bottom: 3px solid;
 }
 div.left-menu {
 	width: 25%;
-	padding: 5px;
 	height: 30%;
-	margin: 5px 5px 5px;
-	color: #202020;
-	border: solid 2px;
-	border-color: #000000;
+	position: relative;
+	right: 14px;
+	top: 0px;
 	}
 h3.left-menu-text {
 	background-color: #8c798b !important;
@@ -215,10 +238,33 @@ color: #202020;
 color: #202020;
 font-weight: bold;
 }
+.notifications__comments, .left-menu__user-notification {
+	background: linear-gradient(90deg, #ececec6b,#202020a1);
+	border-image-source: url(https://i1.beon.fun/45/35/3545/29/1347729/19449830-Photoroom.png);
+	padding: 10px;
+	backdrop-filter: blur(3px);
+	border-image-repeat: round;
+    border-image-slice: 70;
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-image-outset: 6px;
+    border-image-width: 42px;
+	margin: 10px 10px 30px !important;
+}
 .blog__tags a {
     color: #202020;
-    border-bottom: 2px solid #d7dbe4;
     font-weight: bold;
+	background: linear-gradient(90deg, #ececec6b,#202020a1);
+	border-image-source: url(https://i1.beon.fun/45/35/3545/29/1347729/19449830-Photoroom.png);
+	padding: 10px;
+	backdrop-filter: blur(3px);
+	border-image-repeat: round;
+    border-image-slice: 70;
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-image-outset: 6px;
+    border-image-width: 42px;
+	margin: 10px 10px 30px !important;
 }
 
 .left-menu__unread-message img {
@@ -230,7 +276,6 @@ font-weight: bold;
     float: right;
     object-fit: cover;
 }
-
 
 .left-menu__user-notification.left-menu__unread-message img+p {
     font-size: 10px;
@@ -258,6 +303,32 @@ font-weight: bold;
     box-shadow: 0px 0px 3px 0px #00000047;
     color: #202020;
     transition: 0.4s;
+}
+.left-menu__friends, .left-menu__friends_offline {
+	background: linear-gradient(90deg, #ececec6b,#202020a1);
+	border-image-source: url(https://i1.beon.fun/45/35/3545/29/1347729/19449830-Photoroom.png);
+	padding: 10px;
+	backdrop-filter: blur(3px);
+	border-image-repeat: round;
+    border-image-slice: 70;
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-image-outset: 6px;
+    border-image-width: 42px;
+	margin: 10px 10px 30px !important;
+}
+.blog__about{
+	background: linear-gradient(90deg, #ececec6b,#202020a1);
+	border-image-source: url(https://i1.beon.fun/45/35/3545/29/1347729/19449830-Photoroom.png);
+	padding: 10px;
+	backdrop-filter: blur(3px);
+	border-image-repeat: round;
+    border-image-slice: 70;
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-image-outset: 6px;
+    border-image-width: 42px;
+	margin: 10px 10px 30px !important;
 }
 .readertime {
     font-size: 10px;
@@ -461,9 +532,7 @@ a, div {
 
 a:hover {
     text-decoration: unset!important;
-color:#8391b3; /* #ececec */
-text-shadow: 0 0 3px #728dd1;
-transition: .3s;
+color:#ececec; 
 }
 ::selection {
     background: #0b1a34;
@@ -628,4 +697,3 @@ width: 98%;
     width: 100%!important;
 }
 }
-
