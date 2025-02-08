@@ -296,6 +296,7 @@ h3.left-menu-text {
 	box-shadow: 3px 3px 7px 0px #505050;
 	color: #ececec;
 	text-transform: uppercase;
+	font-weight: bold;
 	}
 .left-menu a {
 color: #202020;
@@ -323,6 +324,7 @@ font-weight: bold;
 }
 	h3.left-menu-text {
 		text-align: center!important;
+		font-weight: bold;
 }
 }
 .blog__tags a {
