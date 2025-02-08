@@ -321,6 +321,9 @@ font-weight: bold;
 	a:hover {
 	text-shadow: 2px 2px 10px #202020;
 }
+	h3.left-menu-text {
+		text-align: center!important;
+}
 }
 .blog__tags a {
     color: #202020;
@@ -330,39 +333,32 @@ font-weight: bold;
 }
 
 .left-menu__unread-message img {
-    padding: 2px;
-    margin-top: -8px;
-    outline: 1px solid #888888;
-    width: 50px;
-    height: 50px;
-    float: right;
-    object-fit: cover;
+	filter: grayscale(70%);
+}
+.left-menu__unread-message img:hover {
+	filter: drop-shadow(0px 0px 3px #000000);
+transition: 0.1s;
 }
 
 .left-menu__user-notification.left-menu__unread-message img+p {
-    font-size: 10px;
-    color: #000;
-    overflow: auto;
-    line-height: normal;
-    max-height: 50px;
-    margin-top: -10px;
+   color: #202020;
+   font-size: 14px;
+	padding-top: 5px;
 }
 
 .left-menu__unread-message input[type="submit"], 
 .left-menu__unread-message input[type="button"] {
-    background: #d7dbe4;
-    border: 4px double #ededed;
-    color: #000000;
-    font-size: 10px;
-    text-transform: uppercase;
-    transition: 0.4s;
+     background: #ffffff82;
+   border: 4px double #202020;
+   color: #202020;
+   font-size: 12px;
+   text-transform: uppercase;
+   transition: 0.4s;
 }
 
 .left-menu__unread-message input[type="submit"]:hover, 
 .left-menu__unread-message input[type="button"]:hover {
-    background: #f6f6f6;
-    border: 4px double #ededed;
-    box-shadow: 0px 0px 3px 0px #00000047;
+  box-shadow: 3px 3px 7px 0px #505050;
     color: #202020;
     transition: 0.4s;
 }
