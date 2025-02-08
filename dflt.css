@@ -84,6 +84,9 @@ ul ul {
 .crumbs a {
 		color: #202020 !important;
 	}
+.pagination {
+	color: #2020209e;
+}
 .pagination a {
 	color: #202020;	
 }
@@ -316,11 +319,15 @@ font-weight: bold;
 .notifications__comments, .left-menu__user-notification {
 	box-shadow: -1px -1px 1px 0px #505050;
 	border-bottom: 1px solid #505050;
+	a:hover {
+	text-shadow: 2px 2px 10px #202020;
+}
 }
 .blog__tags a {
     color: #202020;
     font-weight: bold;
-	border: 2px solid #505050;
+	border-bottom: 1px solid #505050;
+	box-shadow: -1px -1px 1px 0px #505050;
 }
 
 .left-menu__unread-message img {
