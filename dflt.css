@@ -133,6 +133,7 @@ font-size:0;
 .post-text {
 font-size: 15px; 
 color: #202020; 
+	padding-top: 15px;
 }
 
 .post-text a {
@@ -264,6 +265,9 @@ color: #202020;
 margin-bottom: 5px;
 border-bottom: 2px solid;
 } 
+.text-center img {
+display: none;
+}
  .blog__about h3.left-menu-text {
     position: relative;
 	 bottom: 5px;
@@ -458,6 +462,10 @@ filter: none;
 	a {
 		color: #202020;
 	}
+	a:hover{
+		color: #ececec;
+		text-shadow: 2px 2px 10px #202020;
+	}
 	padding-bottom: 15px;
 	font-size: 13px;
 }
@@ -581,8 +589,9 @@ border-radius: 10px;
 	color: #ececec;
 }
 .sign {
-    background: #d7dbe4;
-    color: rgb(62 62 62);
+	font-size: 12px;
+    color: #202020;
+
 }
 .post-avatar img {
 filter: drop-shadow(0px 0px 0px #000000);
@@ -661,13 +670,17 @@ a, div {
     color: #505050;
 }
 ::selection {
-    background: #0b1a34;
-    color: #fff;
-    text-shadow: 1px 0 1px #00ffef, 0 1px 1px #00ffef, -1px 0 1px #00f9e9, 0 -1px 1px #00ffef, 0 0 5px #fff;}
+    background: #3d3d3d;
+    color: #ececec;
+    }
 div#beon-fnplayer { 
     padding: 10px;
-    background: linear-gradient(270deg, #d7dbe4 0%, white 25%, #d7dbe4); 
-    border: 2px solid #d7dbe4;
+	width: 100%;
+	position: relative;
+	left: -1px;
+    background:#202020; 
+    box-shadow: -1px -1px 1px 0px #505050;
+	border-bottom: 1px solid #505050;
 }
 
  #fnplayer-slider > span { 
@@ -676,30 +689,30 @@ font-size:0px!important;
 
 
 #fnplayer-slider {
-    background-color: #fbfbfb!important;
+    background-color: #ececec!important;
 }
 
 #fnplayer-slider-inner {
     height: 10px;
     width: 2%;
-    background-color: #202020!important;
+    background-color: #868686!important;
 }
 
 #fnplayer-volume-inner {
     width: 100%;
-    background-color: #202020!important;
-    border-radius: 10px;
+    background-color: #ececec!important;
+    border-radius: 0px;
 }
 
 #fnplayer-stop {
     border: 0;
-    background: #202020!important;
-    border-radius: 10px;
+    background: #ececec!important;
+    border-radius: 0px;
     margin-bottom: 1px;
 }
 
 #fnplayer-play {
-    border-color: transparent transparent transparent #202020!important;
+    border-color: transparent transparent transparent #ececec!important;
     margin-bottom: 1px;
 }
 
@@ -709,13 +722,13 @@ border:none!important;
 }
  
 #fnplayer-volume {
-border-radius:10px;
+border-radius:0px;
 }
  
 #fnplayer-volume-inner {
 width: 100%;
-background-color: #202020!important;
-border-radius:10px;
+background-color: #868686!important;
+border-radius:0px;
 }
 
 /* медиа */
