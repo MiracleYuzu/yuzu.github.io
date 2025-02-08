@@ -154,6 +154,7 @@ color: #202020;
 .post-opt span {
 color: #202020;
 font-weight: bold;
+	padding-left: 10px;
 }
 .post-opt a:hover,
 .post-opt span:hover {
@@ -189,10 +190,9 @@ text-shadow: 2px 2px 10px #202020;
 
 a.user.post-title-user {
 color: #202020;
-	position: relative;
-	left: 10px;
 	font-size: 16px;
 	font-weight: bold;
+	padding-left: 15px;
 }
 a.user.post-title-user:hover {
 color: #ececec;
@@ -225,30 +225,75 @@ div, span {
 	            3px 3px 7px 0px #202020;
 	margin: 10px 10px 30px !important;
 	border-radius: 10px; 
+	a:hover {color:#ececec;
+	text-shadow: 2px 2px 10px #202020;
+			}
 	}
+.post-content post-page, h1 {
+	 font-size: 170%;
+    font-weight: bold;
+	background: #202020;
+	display: block;
+	margin-left: 0px;
+	text-align: center;
+	margin-bottom: 10px;
+	box-shadow: 3px 3px 10px 0px #202020;
+	text-transform: uppercase;
+	border-top-left-radius: 7px; 
+	border-top-right-radius: 7px;
+	color: #ececec;
+}
 .post-content [href$="/unsubscribe"],
 .post-content [href$="#"]   {
-font-size: 13px;
+font-size: 14px;
 color:#202020;
+padding-right: 10px;
 }
-
  a.post-subscribe {
-font-size:0px;
+font-size:1px;
+color:#202020;
+padding-right: 10px;
 }
- a.post-subscribe:before {
-content:'Подписаться?';
-font-size:13px;
-color: #202020;
+.post-content [href="/101/clear-comments"],[href="#"] {
+	padding-left: 10px;
+}
+.post-content [href$="/unsubscribe"]:hover,
+.post-content [href$="#"]:hover   {
+color:#ececec;
+	text-shadow: 2px 2px 10px #202020;
+}
+ a.post-subscribe:hover {
+	 color:#ececec;
+text-shadow: 2px 2px 10px #202020;
+	 
+}
+.post-content [href="/101/clear-comments"]:hover,[href="#"]:hover {
+	color:#ececec;
+	text-shadow: 2px 2px 10px #202020;
 }
 
 .quotation {
-    background: #d7dbe4;
-    border-left: 10px double #ffffff;
-    color: #3a3a3a;
-    font-weight: bold;
-    padding: 4px;
-    margin-left: 7px;
-    margin-bottom: 0;
+	background: linear-gradient(90deg, #ececec6b, #86868600);
+	margin-right: 25px;
+	border-left:3px solid #202020;
+}
+#commentpreviewplace {
+	a.post-title-user {
+		font-weight:bold;
+		padding-left: 15px;
+	}
+	a.post-title-user:hover {
+	color:#ececec;
+	text-shadow: 2px 2px 10px #202020;
+	}
+}
+.comment-box, h2 {
+	color: #202020;
+}
+h2 {
+	text-align: center;
+	font-weight:bold;
+	text-transform: uppercase;	
 }
 .comment-content {
 	border: 2px solid transparent; 
@@ -256,9 +301,22 @@ color: #202020;
 		linear-gradient(90deg, #ececec, #202020) border-box;
 	box-shadow: -3px -3px 7px 0px #ececec85,
 	            3px 3px 7px 0px #202020;
+	border-radius: 10px;
 	margin: 10px 10px 30px !important;
 	}
-
+.comment-text {
+	color: #202020;
+	padding-left: 10px;
+	padding-top: 10px;
+	a:hover{
+		color:#ececec;
+	text-shadow: 2px 2px 10px #202020;
+	}
+}
+.small-text {
+	color: #202020;
+	padding-left: 10px;
+}
 .blog__about:before {
     content: '';
     display: block;
@@ -604,6 +662,7 @@ border-radius: 10px;
 .post-avatar img {
 filter: grayscale(70%);
 transition: 0.5s;
+	padding-left: 10px;
 }
 
 .post-avatar img:hover {
@@ -621,6 +680,7 @@ img.imagefsme:hover {
 .comment-content .post-avatar img  {
     filter: grayscale(70%)
     transition: 0.5s;
+	padding-left: 10px;
 }
 
 .comment-content .post-avatar img:hover {
