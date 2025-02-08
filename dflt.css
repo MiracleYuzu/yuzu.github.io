@@ -594,7 +594,7 @@ border-radius: 10px;
 
 }
 .post-avatar img {
-filter: drop-shadow(0px 0px 0px #000000);
+filter: grayscale(70%);
 transition: 0.5s;
 }
 
@@ -602,13 +602,21 @@ transition: 0.5s;
 filter: drop-shadow(0px 0px 3px #000000);
 transition: 0.1s;
 }
-.comment-content .post-avatar img  {
-    filter: drop-shadow(0px 0px 0px #fff);
+img.imagefsme {
+    filter: grayscale(70%);
+    transition: 0.7s;
+}
+img.imagefsme:hover {
+    filter: drop-shadow(0px 0px 3px #000000);
     transition: 0.1s;
+}
+.comment-content .post-avatar img  {
+    filter: grayscale(70%)
+    transition: 0.5s;
 }
 
 .comment-content .post-avatar img:hover {
-    filter: drop-shadow(0px 0px 3px #000);
+    filter: drop-shadow(0px 0px 3px #000000);
     transition: 0.1s;
 }
 [href="#footer"] { 
