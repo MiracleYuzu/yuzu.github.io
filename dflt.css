@@ -14,8 +14,6 @@
 	background-size:21.5%, 21.5%, 20%, auto;
 	background-position: top left, bottom right, center, left;
 	background-attachment: fixed, fixed, fixed, fixed;
-	
-	color: #421c45;
 		}
 main.py-4 {
 	background-color: #868686;
@@ -29,6 +27,8 @@ main.py-4 {
     padding: 1em; 
 	outline-offset: -5px;
 	outline: 1px solid;
+	box-shadow: 3px 3px 7px 0px #202020,
+	            -3px -3px 7px 0px #ececec;
 }
 	.py-4 a, .crumbs a{
 		color:  #202020;
@@ -36,27 +36,34 @@ main.py-4 {
 	.py-4 a:hover, .crumbs a:hover {
 		color:  #ececec;
 	}
+
 nav.navbar {
 	max-width: 1100px;
-	background-color: #868686;
 	border: 10px solid transparent; 
-    background: url(https://i1.beon.fun/45/35/3545/78/1347678/6302768900.png) padding-box, 
+    background: linear-gradient(#868686,#868686) padding-box, 
      linear-gradient(90deg, #ececec, #202020) border-box; 
     border-radius: 10px; 
     padding: 1em; 
 	outline-offset: -5px;
 	outline: 1px solid;
+	box-shadow: 3px 3px 7px 0px #202020,
+	            -3px -3px 7px 0px #ececec !important;
 	}
 
 	nav.navbar a {
 		color: #202020 !important;
+
 	}
 
 	nav.navbar a:hover {
 		color: #ececec !important;
+		text-shadow: 2px 2px 10px #202020;
 	}
 ul ul {
-    list-style-type: ;
+    list-style-type: "✤";
+	color: #202020;
+}
+.m2 {
 	color: #202020;
 }
 .crumbs {
@@ -69,6 +76,8 @@ ul ul {
     padding: 1em; 
 	outline-offset: -5px;
 	outline: 1px solid;
+	box-shadow: 3px 3px 7px 0px #202020,
+	            -3px -3px 7px 0px #ececec;
 	}
 .crumb-item {
 	color: #202020;
@@ -77,19 +86,27 @@ ul ul {
 		color: #202020 !important;
 	}
 .pagination a {
-	color: #202020;
-	border: solid 1px;
+	color: #202020;	
+}
+.pagination a:hover {
+	color: #ececec !important;
+	text-shadow: 2px 2px 10px #202020;
+	
 }
 .pagination-goto {
 	color: #202020;
 }
 
 	.datebg {
-	background-color:#786969;
-			border: solid 2px;
+		border: 2px solid transparent; 
+	background: linear-gradient(90deg, #ececec00, #20202000) padding-box,
+		linear-gradient(90deg, #ececec82, #20202082) border-box;
+	box-shadow: 3px 3px 10px 0px #202020,
+		-3px -3px 10px 0px #202020;	
 	text-align: center;
 		color: #202020;
 		margin: 10px 10px 30px !important;
+		border-radius: 10px; 
 	}
 .content {
     width: 80%;
@@ -99,25 +116,22 @@ ul ul {
 	top: 5px;
 }
 .post-content.blog_total_counter {
-height: 335px;
-display: block;
- background:  url(https://i1.beon.fun/45/35/3545/73/1347873/sss.png) center no-repeat;
-background-size: cover;
-font-size:0;
-	margin: 10px 10px 30px !important;
+display: none;
 }
 .post-content.blog_total_counter h2 {
 font-size:0;
 }
 .post-text {
-font-size: 13px; 
+font-size: 15px; 
 color: #202020; 
 }
 
 .post-text a {
 color: #202020;
 }
-
+.post-opt {
+	color: #202020;
+}
 .post-opt a,
 .post-opt span {
 color: #202020;
@@ -125,26 +139,45 @@ font-weight: bold;
 }
 .post-title  {
     font-size: 170%;
-    color: #202020;
     font-weight: bold;
+	background: #202020;
+	display: block;
+	margin-left: -5px;
+	text-align: center;
+	margin-bottom: 10px;
+	box-shadow: 3px 3px 10px 0px #202020;
+	text-transform: uppercase;
+	border-top-left-radius: 7px; 
+	border-top-right-radius: 7px;
 }
 
-.post-title:hover{
-    color: #ececec;
+.post-title:hover {
+    color: #202020;
+	background: #ececec85;
 }
 a.post-title {
+color: #ececec;
+}
+a.post-title:hover {
 color: #202020;
+text-shadow: 2px 2px 10px #202020d9;
 }
 
 a.user.post-title-user {
 color: #202020;
 }
+a.post-title-date {
+	color: #202020;
+}
 .post-title-date {
+	color: #202020;
+	}
+div, span {
 	color: #202020;
 }
 .post-content i.fas, .comment-box i.fas {
     color: #202020;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .post-content i.fas:hover, .comment-box i.fas:hover {
@@ -152,17 +185,13 @@ color: #202020;
     cursor: pointer;
 }
 .post-content {
-	background: linear-gradient(45deg, #ececec6b,#202020a1);
-	border-image-source: url(https://i1.beon.fun/45/35/3545/29/1347729/19449830-Photoroom.png);
-	padding: 10px;
-	backdrop-filter: blur(3px);
-	border-image-repeat: round;
-    border-image-slice: 70;
-	border-top-left-radius: 15px;
-	border-bottom-right-radius: 15px;
-	border-image-outset: 6px;
-    border-image-width: 40px;
+	border: 2px solid transparent; 
+	background: linear-gradient(#868686e0, #868686) padding-box, 
+		linear-gradient(90deg, #ececec, #202020) border-box;
+	box-shadow: -3px -3px 7px 0px #ececec85,
+	            3px 3px 7px 0px #202020;
 	margin: 10px 10px 30px !important;
+	border-radius: 10px; 
 	}
 .post-content [href$="/unsubscribe"],
 .post-content [href$="#"]   {
@@ -189,16 +218,11 @@ color: #202020;
     margin-bottom: 0;
 }
 .comment-content {
-	background: linear-gradient(45deg, #ececec6b,#202020a1);
-	border-image-source: url(https://i1.beon.fun/45/35/3545/29/1347729/19449830-Photoroom.png);
-	padding: 10px;
-	backdrop-filter: blur(3px);
-	border-image-repeat: round;
-    border-image-slice: 70;
-	border-top-left-radius: 15px;
-	border-bottom-right-radius: 15px;
-	border-image-outset: 6px;
-    border-image-width: 40px;
+	border: 2px solid transparent; 
+	background: linear-gradient(#868686e0, #868686) padding-box, 
+		linear-gradient(90deg, #ececec, #202020) border-box;
+	box-shadow: -3px -3px 7px 0px #ececec85,
+	            3px 3px 7px 0px #202020;
 	margin: 10px 10px 30px !important;
 	}
 
@@ -209,26 +233,41 @@ color: #202020;
     background: ;
     background-size: cover;
 margin-bottom: 5px;
-border-top: 3px solid;
-border-bottom: 3px solid;
+border-bottom: 2px solid;
 } 
  .blog__about h3.left-menu-text {
-    display: none;
+    position: relative;
+	 bottom: 5px;
 }
 div.left-menu {
-	width: 25%;
+	width: 26%;
 	height: 30%;
 	position: relative;
-	right: 14px;
-	top: 0px;
+	right: px;
+	top: 20px;
+	border: 2px solid transparent; 
+	background: linear-gradient(#868686e0, #868686) padding-box, 
+		linear-gradient(90deg, #ececec, #202020) border-box;
+	box-shadow: -3px -3px 7px 0px #ececec85,
+	            3px 3px 7px 0px #202020;
+	border-radius: 10px; 
 	}
 h3.left-menu-text {
-	background-color: #8c798b !important;
+	background-color: #202020 !important;
+	padding: 5px;
 	text-align: center;
-	color: #202020;
+	font-size: 18px;
+	border-bottom: 1px solid #505050;
+	box-shadow: 3px 3px 7px 0px #505050;
+	color: #ececec;
+	text-transform: uppercase;
 	}
 .left-menu a {
 color: #202020;
+	font-size: 14px;
+}
+.left-menu-text {
+	color: #202020;
 }
 .left-menu-text input[type="text"] {
 	width: 170px;
@@ -239,32 +278,13 @@ color: #202020;
 font-weight: bold;
 }
 .notifications__comments, .left-menu__user-notification {
-	background: linear-gradient(90deg, #ececec6b,#202020a1);
-	border-image-source: url(https://i1.beon.fun/45/35/3545/29/1347729/19449830-Photoroom.png);
-	padding: 10px;
-	backdrop-filter: blur(3px);
-	border-image-repeat: round;
-    border-image-slice: 70;
-	border-top-left-radius: 15px;
-	border-bottom-right-radius: 15px;
-	border-image-outset: 6px;
-    border-image-width: 42px;
+	border: 2px solid #505050;
 	margin: 10px 10px 30px !important;
 }
 .blog__tags a {
     color: #202020;
     font-weight: bold;
-	background: linear-gradient(90deg, #ececec6b,#202020a1);
-	border-image-source: url(https://i1.beon.fun/45/35/3545/29/1347729/19449830-Photoroom.png);
-	padding: 10px;
-	backdrop-filter: blur(3px);
-	border-image-repeat: round;
-    border-image-slice: 70;
-	border-top-left-radius: 15px;
-	border-bottom-right-radius: 15px;
-	border-image-outset: 6px;
-    border-image-width: 42px;
-	margin: 10px 10px 30px !important;
+	border: 2px solid #505050;
 }
 
 .left-menu__unread-message img {
@@ -305,45 +325,50 @@ font-weight: bold;
     transition: 0.4s;
 }
 .left-menu__friends, .left-menu__friends_offline {
-	background: linear-gradient(90deg, #ececec6b,#202020a1);
-	border-image-source: url(https://i1.beon.fun/45/35/3545/29/1347729/19449830-Photoroom.png);
-	padding: 10px;
-	backdrop-filter: blur(3px);
-	border-image-repeat: round;
-    border-image-slice: 70;
-	border-top-left-radius: 15px;
-	border-bottom-right-radius: 15px;
-	border-image-outset: 6px;
-    border-image-width: 42px;
-	margin: 10px 10px 30px !important;
+	box-shadow: -1px -1px 1px 0px #505050;
+	border-bottom: 1px solid #505050;
 }
 .blog__about{
-	background: linear-gradient(90deg, #ececec6b,#202020a1);
-	border-image-source: url(https://i1.beon.fun/45/35/3545/29/1347729/19449830-Photoroom.png);
-	padding: 10px;
-	backdrop-filter: blur(3px);
-	border-image-repeat: round;
-    border-image-slice: 70;
-	border-top-left-radius: 15px;
-	border-bottom-right-radius: 15px;
-	border-image-outset: 6px;
-    border-image-width: 42px;
-	margin: 10px 10px 30px !important;
+	border-bottom: 1px solid #505050;
+	box-shadow: -1px -1px 1px 0px #505050;
+	text-align: center;
+}
+.blog__read-me {
+	border-bottom: 1px solid #505050;
+	box-shadow: -1px -1px 1px 0px #505050;
 }
 .readertime {
     font-size: 10px;
     color: #202020;
     font-weight: bold;
 }
+
+.blog__iread{
+	border-bottom: 1px solid #505050;
+	box-shadow:   -1px -1px 1px 0px #505050;
+}
+.blog__last-comments{
+	display: none;
+}
+
 .textareabg {
-	background-color: #786969;
-	border: solid 2px;
-	margin: 5px;
+	border: 2px solid transparent; 
+	background: linear-gradient(#868686e0, #868686) padding-box, 
+		linear-gradient(90deg, #ececec, #202020) border-box;
+	box-shadow: -3px -3px 7px 0px #ececec85,
+	            3px 3px 7px 0px #202020;
+	margin: 10px 10px 30px !important;
+div {
+	color: #202020;
+}
 		}
+div, p {
+	color: #202020;
+}
+
 textarea {
 	background-color: #8d818db5;
 	border: solid 2px;
-	margin: 5px;
 }
   .avatar-select-list {
 	  background-color: #625267;
@@ -378,7 +403,32 @@ transition: 0.2s;
 	margin: 5px;
 	margin-top: 0px !important;
 }
-
+.bottombg {
+	max-width: 1100px;
+	height: 80px;
+	margin: auto;
+	border: 10px solid transparent; 
+    background: linear-gradient(#868686,#868686) padding-box, 
+     linear-gradient(90deg, #ececec, #202020) border-box; 
+    border-radius: 10px; 
+    padding: 1em; 
+	outline-offset: -5px;
+	outline: 1px solid;
+	box-shadow: 3px 3px 7px 0px #202020,
+	            -3px -3px 7px 0px #ececec !important;
+	text-align: center;
+}
+	div#footer, .footer__infolinks.p-1, div#app+div+[style="text-align: center"], div#page__rendertime.p-1 {
+    font-size: 0;
+}
+.text-center {
+	color: #202020;
+	a {
+		color: #202020;
+	}
+	padding-bottom: 15px;
+	font-size: 13px;
+}
  select,
 input ,
 .textareabg input[type="submit"],
@@ -392,7 +442,6 @@ button.btn.btn-primary {
    font-size: 12px;
    text-transform: uppercase;
    transition: 0.4s;
-	
 }
 
  select:hover,
@@ -410,9 +459,9 @@ button.btn.btn-primary:hover {
 }
 ::-webkit-scrollbar {
     width: 10px;
-	border: solid 1px;
-	border-color: #4f0861;
-	background-color: #bdb8be;
+    border: solid 1px;
+    border-color: #4f0861;
+    background-color: #bdb8be;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -461,7 +510,6 @@ transition: 0.5s;
 filter: drop-shadow(0px 0px 3px #000000);
 transition: 0.5s;
 }
-
 .comment-content .post-avatar img  {
     filter: drop-shadow(0px 0px 0px #fff);
     transition: 0.5s;
@@ -472,67 +520,69 @@ transition: 0.5s;
     transition: 0.5s;
 }
 [href="#footer"] { 
-    background: #b49db1;
-    outline-offset: -6px;
-    outline: 1px solid #49025359;
+     color: #202020;
+	background-color: #868686;
+    font-weight: bold;
+    outline: 1px solid #202020;
     padding: 5px!important;
-    color: #202020;
     font-size: 13px;
     text-transform: uppercase;
     text-align: center;
     position: fixed;
-    bottom: 460px;
-    right: 10px;
+    right: 170px;
     width: 95px;
+	top: 10px;
     height: 28px;
     z-index: 1000;
     transition: .4s;
 
 }
 [href="#footer"]:hover { 
-    background: #c4a3ce;
-    outline: 1px solid #a88bb8;
-    box-shadow: 0px 0px 8px 2px #735475f2;
-    color: #ececec;
+    background-color: #202020;
+	 outline: 1px solid #ececec75;
+    box-shadow: 0px 0px 8px 2px #202020;
+    color: #ececec85;
     font-size: 13px;
     transition: 0.4s;
 }
  
 [onclick="window.scroll({top: 0,behavior: 'smooth'})"] {
-    background: #b49db1;
-    outline-offset: -6px;
-    outline: 1px solid #49025359;
-    padding: 5px;
     color: #202020;
+	background-color: #868686;
+    font-weight: bold;
+    outline: 1px solid #202020;
+    padding: 5px;
     font-size: 13px;
     text-transform: uppercase;
     text-align: center;
     position: fixed;
-    bottom: 500px;
-    right: 10px;
+    bottom: 10px;
+    right: 170px;
     width: 95px;
     height: 28px;
     z-index: 1000;
     transition: .4s;
+	text-shadow: none !important;
 }
 
  [onclick="window.scroll({top: 0,behavior: 'smooth'})"]:hover { 
-    background: #c4a3ce;
-    outline: 1px solid #a88bb8;
-    box-shadow: 0px 0px 8px 2px #735475f2;
+     background-color: #202020;
+	 outline: 1px solid #ececec;
+    box-shadow: 0px 0px 8px 2px #202020;
     color: #ececec;
     font-size: 13px;
     transition: 0.4s;
 }
 a, div {
     text-decoration: unset!important;
-    color:#505050;
+    color: #505050;
     transition: .3s;
 }
 
 a:hover {
     text-decoration: unset!important;
 color:#ececec; 
+	text-shadow: 2px 2px 10px #202020;
 }
 ::selection {
     background: #0b1a34;
