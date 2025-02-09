@@ -161,11 +161,7 @@ color: #202020;
 	color: #202020;
 }
 .post-opt a,
-.post-opt span {
-color: #202020;
-font-weight: bold;
-	padding-left: 10px;
-}
+.post-opt span {color: #202020;font-weight: bold;padding-left: 10px;}
 .post-opt a:hover,
 .post-opt span:hover {
 color: #ececec;
@@ -818,8 +814,8 @@ a, div {
 	padding-left: 3px!important;
 }
 .col-12 {
-    flex: 0 0 100%;
     max-width: 100%;
+	padding: auto;
 	div {color: #202020;
 		}
 }
@@ -1051,7 +1047,6 @@ width: 98%;
     width: 100%!important;
 }
 }
-
 
 
 
