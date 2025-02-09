@@ -926,14 +926,16 @@ font-size: 18px;
 [href="#footer"] {
  font-size: 10px!important;
     bottom: 10px!important;
-    left: 620px!important;
+    right: 10px!important;
  width: 65px!important;
+	position: fixed;
 }
 
  [onclick="window.scroll({top: 0,behavior: 'smooth'})"]  {
  font-size: 10px!important;
-left: 620px!important;
+right: 10px!important;
  width: 65px!important;
+	 position: fixed;
 }
  
 span.comments_count span::before {
