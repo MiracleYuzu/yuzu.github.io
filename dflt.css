@@ -830,7 +830,7 @@ border-radius:0px;
 }
 
 /* медиа */
-@media (max-width: 700px) {
+@media(max-width: 700px) { 
 
 .py-4 {
 flex-direction: column!important;
@@ -855,7 +855,7 @@ main.py-4 {
 
 .left-menu > div.mobile_open_menu > h3 {
     color: #ececec!important;
-font-size: 15px;
+font-size: 18px;
 }
 .menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
     display: block;
@@ -865,8 +865,36 @@ font-size: 15px;
     background-color: #202020!important;
     transition-duration: .25s;
 }
-	.menu__item:hover {
-  background-color: #868686;
+	.menu__box {
+	z-index: 1;
+	display: block;
+	position: fixed;
+	visibility: hidden;
+	top: 0;
+	right: -100%;
+	width: 300px;
+	height: 90%;
+	margin: 0;
+	padding: 40px 0;
+	list-style: none;
+	background-color: #868686!important;
+	box-shadow: 3px 3px 7px 0px #202020;
+	transition-duration: .25s;
+}
+
+.menu__item {
+  display: block;
+  padding: 3px 18px 3px 24px;
+  text-align: center!important;
+  color: #202020important;
+  font-family: "Shantell Sans", serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  transition-duration: .25s;
+}
+.menu__item:hover {
+  background-color: #868686!important;
 }
 .content {
     width: 105%!important;
@@ -920,20 +948,6 @@ span.comments_count a {
 
 .avatar-select-list {
     width:98%!important;
-}
-.menu__item {
-    text-align: center!important;
-    color: #202020;
-  font-size: 12px!important;
-	font-family: "Shantell Sans", serif;
-
-}
-
-.menu__box {
-    background: #868686;
-    box-shadow: 0px 0px 8px 2px #202020;
-    width:50%!important;
-    height: 85%!important;
 }
 
       .avatars-fullscreen-link-wrapper {
