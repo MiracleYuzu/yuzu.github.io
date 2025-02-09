@@ -707,7 +707,6 @@ border-radius: 10px;
 .post-avatar img {
 filter: grayscale(70%);
 transition: 0.5s;
-	padding-left: 10px;
 }
 
 .post-avatar img:hover {
@@ -725,7 +724,6 @@ img.imagefsme:hover {
 .comment-content .post-avatar img  {
     filter: grayscale(70%)
     transition: 0.5s;
-	padding-left: 10px;
 }
 
 .comment-content .post-avatar img:hover {
@@ -1053,6 +1051,7 @@ width: 98%;
     width: 100%!important;
 }
 }
+
 
 
 
