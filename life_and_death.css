@@ -279,7 +279,10 @@ text-shadow: 2px 2px 10px #202020;
 	color:#ececec;
 	text-shadow: 2px 2px 10px #202020;
 }
-
+span[data-target="#deleteconfirmmodal"] {
+    color: #202020;
+    cursor: pointer;
+}
 .quotation {
 	background: linear-gradient(90deg, #ececec6b, #86868600);
 	margin-right: 25px;
@@ -792,10 +795,17 @@ a, div {
 .textarea-wrapper{
 	width: 100%;
 	position: relative;
+	left: 5px;
 }
 .p-3 {
     padding: 0rem !important;
 	padding-left: 3px!important;
+}
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+	div {color: #202020;
+		}
 }
 
 /* плеер */
