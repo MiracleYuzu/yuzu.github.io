@@ -237,17 +237,18 @@ div, span {
 	}
 .post-content post-page, h1 {
 	 font-size: 170%;
-    font-weight: bold;
-	background: #202020;
-	display: block;
-	margin-left: -2px;
-	text-align: center;
-	margin-bottom: 10px;
-	box-shadow: 3px 3px 10px 0px #202020;
-	text-transform: uppercase;
-	border-top-left-radius: 7px; 
-	border-top-right-radius: 7px;
-	color: #ececec;
+	 font-weight: bold;
+	 background: #202020;
+	padding: 5px;
+	 display: block;
+	 margin-left: -2px;
+	 text-align: center;
+	 margin-bottom: 10px;
+	 box-shadow: 3px 3px 10px 0px #202020;
+	 text-transform: uppercase;
+	 border-top-left-radius: 7px;
+	 border-top-right-radius: 7px;
+	 color: #ececec!important;
 }
 .post-content [href$="/unsubscribe"],
 .post-content [href$="#"]   {
