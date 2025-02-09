@@ -496,6 +496,7 @@ div, p {
 textarea {
 	background-color: #ffffff85;
 	border: solid 1px;
+
 }
   .avatar-select-list {
 	  background-color: #868686;
@@ -809,6 +810,11 @@ a, div {
 .textarea-wrapper{
 	width: 100%;
 	position: relative;
+	left: 5px;
+}
+.textarea-wrapper > textarea {
+	flex: 0.98;
+    width: 98%;
 }
 .p-3 {
     padding: 0rem !important;
@@ -1048,6 +1054,7 @@ width: 98%;
     width: 100%!important;
 }
 }
+
 
 
 
