@@ -564,6 +564,7 @@ button.btn.btn-primary {
    font-size: 12px;
    text-transform: uppercase;
    transition: 0.4s;
+	margin-left: 5px;
 }
 
  select:hover,
@@ -769,6 +770,22 @@ a, div {
     background: #3d3d3d;
     color: #ececec;
     }
+.mt-3 mb-3, h5 {
+	color: #202020;
+	text-align: center;
+}
+::marker, li {
+	color: #202020;
+	}
+.collapsed, h4 {
+	color: #202020;
+}
+.textarea-wrapper{
+	width: 100%;
+	position: relative;
+	left: 5px;
+}
+
 /* плеер */
 div#beon-fnplayer { 
     padding: 10px;
