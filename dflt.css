@@ -5,7 +5,7 @@
 
 .bodybg {
 	width: 100%;
-	height: 5000px;
+	height: 100%;
 	background-image: url(https://i1.beon.fun/45/35/3545/21/1347121/122e6b17b9926aae14391f7bfe482f6c.png), 
 	url(https://i1.beon.fun/45/35/3545/22/1347122/bb51c15370af4ea65a136a66f47b3c4d.png), 
 	linear-gradient(to right, #202020,#ececec), linear-gradient(to right, #202020 50%,#ececec 50%);
@@ -291,14 +291,16 @@ text-shadow: 2px 2px 10px #202020;
 	color:#ececec;
 	text-shadow: 2px 2px 10px #202020;
 	}
+	}
 }
 .comment-box, h2 {
-	color: #202020;
+	color: #202020!important;
 }
 h2 {
 	text-align: center;
 	font-weight:bold;
 	text-transform: uppercase;	
+	color: #202020!important;
 }
 .comment-content {
 	border: 2px solid transparent; 
@@ -460,22 +462,29 @@ transition: 0.1s;
 		linear-gradient(90deg, #ececec, #202020) border-box;
 	box-shadow: -3px -3px 7px 0px #ececec85,
 	            3px 3px 7px 0px #202020;
+	border-radius: 10px;
 	margin: 10px 10px 30px !important;
+	padding:5px;
 div {
 	color: #202020;
 }
 		}
 div, p {
 	color: #202020;
+	padding-left: 2px;
 }
-
+.tag_bar {
+	padding-left: 10px;
+}
 textarea {
 	background-color: #ffffff85;
 	border: solid 1px;
 }
   .avatar-select-list {
 	  background-color: #868686;
-  }
+	padding-right: 5px;
+}
+  
 .avatar-select-label {
 margin:2px;
 width: 100px;
@@ -583,17 +592,16 @@ button.btn.btn-primary:hover {
 .avatars-fullscreen-link-wrapper {
     position: absolute;
     bottom: 0;
-    width: 100%;
+    width: 90%;
     text-align: center;
 	border: 1px solid #202020;
-	border-left: 0px;
     background: #868686;
 	a {
 		color: #202020;
 	}	
 }
 .avatars-fullscreen-link-wrapper a:hover {
-	text-shadow: 2px 2px 10px #202020;
+	text-shadow: 2px 2px 10px #202020!important;
 }
 .modal-content {
 	border: 2px solid transparent; 
