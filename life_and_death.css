@@ -173,7 +173,7 @@ color: #ececec;
     font-weight: bold;
 	background: #202020;
 	display: block;
-	margin-left: -9px;
+	margin-left: -5px;
 	text-align: center;
 	margin-bottom: 10px;
 	box-shadow: 3px 3px 10px 0px #202020;
@@ -314,8 +314,7 @@ h2 {
 	}
 .comment-text {
 	color: #202020;
-	padding-left: 10px;
-	padding-top: 10px;
+	padding: auto;
 	a:hover{
 		color:#ececec;
 	text-shadow: 2px 2px 10px #202020;
@@ -337,7 +336,6 @@ div.left-menu {
 	width: 26%;
 	height: 30%;
 	position: relative;
-	right: px;
 	top: 20px;
 	border: 2px solid transparent; 
 	background: linear-gradient(#868686e0, #868686) padding-box, 
@@ -352,7 +350,7 @@ h3.left-menu-text {
 	background-color: #202020 !important;
 	padding: 5px;
 	text-align: center;
-	font-size: 18px;
+	font-size: 15px;
 	border-bottom: 1px solid #505050;
 	box-shadow: 3px 3px 7px 0px #505050;
 	color: #ececec;
@@ -430,14 +428,16 @@ transition: 0.1s;
     transition: 0.4s;
 }
 .left-menu__friends, .left-menu__friends_offline {
-	border-bottom: 6px solid #505050!important;
+	border-bottom: 1px solid #505050!important;
 	box-shadow: -1px -1px 1px 0px #505050!important;
-	padding-bottom: 5px;
+	margin-bottom: 5px;
 }
-.blog__about{
+.blog__about {
+	text-align: center;
+}
+.blog__about mb-3 {
 	border-bottom: 1px solid #505050;
 	box-shadow: -1px -1px 1px 0px #505050;
-	text-align: center;
 }
 .blog__read-me {
 	border-bottom: 1px solid #505050;
@@ -472,7 +472,6 @@ div {
 		}
 div, p {
 	color: #202020;
-	padding-left: 2px;
 }
 .tag_bar {
 	padding-left: 10px;
@@ -564,7 +563,6 @@ button.btn.btn-primary {
    font-size: 12px;
    text-transform: uppercase;
    transition: 0.4s;
-	margin-left: 5px;
 }
 
  select:hover,
@@ -578,6 +576,12 @@ button.btn.btn-primary:hover {
     color: #202020;
     transition: 0.4s;
 }
+.liked .fas, .reposted .fas, .bookmarked .fas {
+    color: #ececec!important;
+text-shadow: 2px 2px 10px #202020;
+}
+
+	
 /* бегунец */
 ::-webkit-scrollbar {
     width: 10px;
