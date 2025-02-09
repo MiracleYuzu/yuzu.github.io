@@ -744,7 +744,7 @@ img.imagefsme:hover {
     text-transform: uppercase;
     text-align: center;
     position: fixed;
-    right: 300px;
+    right: 20px;
     width: 95px;
 	top: 460px;
     height: 28px;
@@ -772,7 +772,7 @@ img.imagefsme:hover {
     text-align: center;
     position: fixed;
     bottom: 500px;
-    right: 300px;
+    right: 20px;
     width: 95px;
     height: 28px;
     z-index: 1000;
