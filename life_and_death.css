@@ -858,6 +858,7 @@ flex-direction: column!important;
 }
 
 main.py-4 {
+	margin-top: 20px;
     border: 10px solid transparent; 
     background: url(https://i1.beon.fun/45/35/3545/78/1347678/6302768900.png)padding-box, 
    linear-gradient(90deg, #ececec, #202020) border-box; 
@@ -891,15 +892,20 @@ font-size: 18px;
 	display: block;
 	position: fixed;
 	visibility: hidden;
-	top: 0;
+	top: 88px;
 	right: -100%;
 	width: 300px;
 	height: 90%;
 	margin: 0;
 	padding: 40px 0;
 	list-style: none;
-	background-color: #868686!important;
-	box-shadow: 3px 3px 7px 0px #202020;
+border: 2px solid transparent; 
+	background: linear-gradient(#868686e0, #868686) padding-box, 
+		linear-gradient(90deg, #ececec, #202020) border-box;
+	box-shadow: -3px -3px 7px 0px #ececec85,
+	            3px 3px 7px 0px #202020;
+	margin: 10px 10px 30px !important;
+	border-radius: 10px; 
 	transition-duration: .25s;
 }
 
@@ -917,6 +923,37 @@ font-size: 18px;
 .menu__item:hover {
   background-color: #868686!important;
 }
+	.navbar {
+    position: fixed;
+    width: 100%;
+	height: 93px;
+    z-index: 9;
+
+}
+a.my-menu.for-mobile.d-none.d-md-inline, a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none {
+    position: fixed;
+    right: 60px;
+    top: 52px;
+    font-size: 10px;
+    width: 70px;
+    height: 25px;
+}
+	[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"] {
+    font-size: 10px;
+    width: 70px;
+    height: 25px;
+    position: fixed;
+    right: 60px;
+    top: 18px;
+}
+	[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"]:hover {
+    font-size: 10px;
+    width: 70px;
+    height:25px;
+    position: fixed;
+    right: 60px;
+    top: 18px;
+}
 .content {
     width: 105%!important;
 	position: relative;
@@ -924,21 +961,7 @@ font-size: 18px;
 	top: 30px;
 }
 
-[href="#footer"] {
- font-size: 10px!important;
-    bottom: 10px!important;
-    right: 10px!important;
- width: 65px!important;
-	position: fixed;
-}
 
- [onclick="window.scroll({top: 0,behavior: 'smooth'})"]  {
- font-size: 10px!important;
-right: 10px!important;
- width: 65px!important;
-	 position: fixed;
-}
- 
 span.comments_count span::before {
     font-size: 12px!important;
  
