@@ -557,7 +557,7 @@ input ,
 .left-menu-text input[type="text"],
 .left-menu-text input[type="submit"], 
 button.btn.btn-secondary, 
-button.btn.btn-primary {
+button.btn.btn-primary, .btn-outline-primary {
    background: #ffffff82;
    border: 4px double #202020;
    color: #202020;
@@ -572,10 +572,13 @@ input:hover,
 .left-menu-text input[type="text"]:hover,
 .left-menu-text input[type="submit"]:hover, 
 button.btn.btn-secondary:hover, 
-button.btn.btn-primary:hover {
+button.btn.btn-primary:hover, .btn-outline-primary:hover {
     box-shadow: 3px 3px 7px 0px #505050;
-    color: #202020;
+background: #ffffff82;
+   border: 4px double #202020;
+    color: #202020!important;
     transition: 0.4s;
+	text-shadow: none!important;
 }
 .liked .fas, .reposted .fas, .bookmarked .fas {
     color: #ececec!important;
@@ -789,6 +792,10 @@ a, div {
 	width: 100%;
 	position: relative;
 	left: 5px;
+}
+.p-3 {
+    padding: 0rem !important;
+	padding-left: 3px!important;
 }
 
 /* плеер */
@@ -1018,3 +1025,4 @@ width: 98%;
     width: 100%!important;
 }
 }
+
