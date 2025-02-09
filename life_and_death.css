@@ -527,7 +527,6 @@ filter: none;
 .textareabg input[type="text"] {
 	width: 200px;
 	position: relative;
-	bottom: 18px;
 }
 .textareabg select {
 	width: 200px;
@@ -1054,6 +1053,7 @@ width: 98%;
     width: 100%!important;
 }
 }
+
 
 
 
