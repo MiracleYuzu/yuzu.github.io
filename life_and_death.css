@@ -106,7 +106,6 @@ ul ul {
 /* иконки минус */
 [src="//beon.fun/i/offline.png"],
 [src="//beon.fun/i/online.png"],
-[src="//beon.fun/i/design-off.png"],
 [src="/i/blog.png"],
 [src="/i/user.png"],
 [src="/i/offline.png"],
@@ -431,8 +430,9 @@ transition: 0.1s;
     transition: 0.4s;
 }
 .left-menu__friends, .left-menu__friends_offline {
-	box-shadow: -1px -1px 1px 0px #505050;
-	border-bottom: 1px solid #505050;
+	border-bottom: 6px solid #505050!important;
+	box-shadow: -1px -1px 1px 0px #505050!important;
+	padding-bottom: 5px;
 }
 .blog__about{
 	border-bottom: 1px solid #505050;
