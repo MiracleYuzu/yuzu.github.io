@@ -984,10 +984,10 @@ a.my-menu.for-mobile.d-none.d-md-inline, a.my-menu.for-mobile.mobile-scroll-down
     top: 18px;
 }
 .content {
-    width: 105%!important;
-	position: relative;
+    width: 100%!important;
+	position: inherit;
 	left: -15px;
-	top: 30px;
+	margin-top: 30px;
 }
 
 
@@ -1009,7 +1009,7 @@ span.comments_count a {
 }
 
 .fas, .far, .tag_bar > * {
-    font-size: 0.8rem!important;
+    font-size: 0.8em!important;
     padding: 0rem!important;
 }
 
@@ -1047,6 +1047,7 @@ width: 98%;
     width: 100%!important;
 }
 }
+
 
 
 
