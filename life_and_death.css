@@ -17,7 +17,7 @@
 main.py-4 {
 	background-color: #868686;
 	max-width: 1100px;
-margin: auto;
+	margin: auto;
 	padding: 0.5em;
 	border: 10px solid transparent;
 	background: url(https://i1.beon.fun/45/35/3545/78/1347678/6302768900.png)/*linear-gradient(#868686, #868686)*/ padding-box, 
@@ -28,6 +28,7 @@ margin: auto;
 	box-shadow: 3px 3px 7px 0px #202020,
 	            -3px -3px 7px 0px #ececec;
 	color: #505050 !important;
+	align-items: space-around!important;
 }
 	.py-4 a, .crumbs a{
 		color:  #202020;
@@ -129,8 +130,9 @@ display:none;
 /* записи-коммы */
 .content {
     width: 90%;
-    padding: auto;
+	padding: auto;
 	position: relative;
+	right: 5px;
 
 }
 .post-content.blog_total_counter {
@@ -476,7 +478,7 @@ transition: 0.1s;
 	            3px 3px 7px 0px #202020;
 	border-radius: 10px;
 	margin: 20px 15px 30px !important;
-	padding:5px;
+	padding-left: 5px!important;
 div {
 	color: #202020;
 }
@@ -879,15 +881,19 @@ border-radius:0px;
 @media (max-width: 800px) { 
 div#app {
     padding: 0 0 0 0 !important;
+align-items: center!important;
+	align-content: center!important;
 }
 .py-4 {
-	width: 100%;
 flex-direction: column!important;
 	padding: 1% !important;
-	align-items: center;
+	align-items: center!important;
+	align-content: center!important;
+	width: 100%!important;
 }
 
 main.py-4 {
+	width: 100%!important;
 	flex-flow: column!important;
     border: 10px solid transparent; 
     background: url(https://i1.beon.fun/45/35/3545/78/1347678/6302768900.png)padding-box, 
@@ -895,6 +901,8 @@ main.py-4 {
     border-radius: 10px; 
 	box-shadow: 3px 3px 7px 0px #202020,
 	            -3px -3px 7px 0px #ececec;
+	align-items: center!important;
+	align-content: center!important;
 }
 
  .left-menu {
@@ -981,11 +989,10 @@ a.my-menu.for-mobile.d-none.d-md-inline, a.my-menu.for-mobile.mobile-scroll-down
 }
 .content {
    width: 100% !important;
-    padding-right: 0 !important;
-    padding-left: 0 !important;
-    padding-top: 0 !important;
-    
-	font-size: 13px;
+   margin-left: 7px !important;
+   font-size: 15px;
+   align-items: center!important;
+   align-content: center!important;
 }
 	
 .post-avatar img {
@@ -993,11 +1000,11 @@ a.my-menu.for-mobile.d-none.d-md-inline, a.my-menu.for-mobile.mobile-scroll-down
 }
 
 span.comments_count span::before {
-    font-size: 12px!important;
+    font-size: 16px!important;
  
 }
 span.comments_count a {
-    font-size: 12px!important;
+    font-size: 16px!important;
 }
 
 .emj-dropdown:hover .emj-dropdown-content {
@@ -1011,7 +1018,7 @@ span.comments_count a {
 }
 
 .fas, .far, .tag_bar > * {
-    font-size: 0.8em!important;
+    font-size: 1.1em!important;
     padding: 0rem!important;
 }
 
@@ -1058,7 +1065,6 @@ span.crumb-item {
     justify-content: center;
 }
 }
-
 
 
 
