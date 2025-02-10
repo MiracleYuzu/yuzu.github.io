@@ -881,7 +881,7 @@ border-radius:0px;
 /* медиа */
 @media (max-width: 800px) { 
 div#app {
-    padding: 0 0 0 0 !important;
+    padding: 93px 0 0 0 !important;
 align-items: center!important;
 	align-content: center!important;
 }
