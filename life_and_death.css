@@ -233,6 +233,7 @@ div, span {
 	text-shadow: 2px 2px 10px #202020;
 			}
 	color: #505050 !important;
+	min-height: auto;
 	}
 .post-content post-page, h1 {
 	 font-size: 170%;
@@ -323,6 +324,7 @@ h2 {
 	            3px 3px 7px 0px #202020;
 	border-radius: 10px;
 	margin: 20px 15px 30px !important;
+	min-height: auto;
 	}
 .comment-text {
 	color: #202020;
